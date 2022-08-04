@@ -19,9 +19,9 @@ function logWhisper(string) {
 logWhisper("HELLO");
 
 function sayHiToHeadphonedRoommate(string) {
-    var isLowerCase = 'hello';
+    let isLowerCase = 'hello';
     isLowerCase.toLowerCase();
-    var isUpperCase = 'HELLO';
+    let isUpperCase = 'HELLO';
     isUpperCase.toUpperCase();
     if (string === isLowerCase) {
 
